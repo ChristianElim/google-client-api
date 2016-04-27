@@ -39,7 +39,7 @@ module.exports = function( onComplete ) {
 				doResolve( resolve, onComplete );
 			};
 
-			scriptjs( 'https://apis.google.com/js/client.js?onload=$$onClientLoad' );
+			scriptjs( 'https://apis.google.com/js/platform.js?onload=$$onClientLoad' );
 		}
 	});
 };
